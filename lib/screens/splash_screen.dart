@@ -26,6 +26,7 @@ class MySplashScreen extends StatelessWidget {
       ],
       backgroundColor: Colors.white,
       
+      
     );
   }
 }
