@@ -20,7 +20,7 @@ class MyCustomPainter extends CustomPainter {
     canvas.drawRect(rect, backgroung);
     canvas.clipRect(rect);
 
-    for (int x = 0; x < points.length; x++) {
+    for (int x = 0; x < points.length - 1; x++) {
       if (points[x] != null && points[x + 1] != null) {
         canvas.drawLine(
             points[x]!.point, points[x + 1]!.point, points[x]!.areaPaint);

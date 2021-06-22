@@ -45,6 +45,7 @@ class _HomeState extends State<Home> {
                     borderRadius: BorderRadius.circular(20),
                     boxShadow: [
                       BoxShadow(
+                        offset: Offset(10, 10),
                         blurRadius: 6,
                         color: Colors.black.withOpacity(0.4),
                       ),
@@ -84,7 +85,7 @@ class _HomeState extends State<Home> {
                     },
                     child: SizedBox.expand(
                       child: ClipRRect(
-                        borderRadius: BorderRadius.circular(00),
+                        borderRadius: BorderRadius.circular(20),
                         child: CustomPaint(
                           painter: MyCustomPainter(points: points),
                         ),
@@ -93,26 +94,33 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
-
-              // Padding(
-              //   padding: EdgeInsets.all(size.width * .1),
-              //   child: Container(
-              //     height: size.width * .1,
-              //     width: size.width,
-              //     decoration: BoxDecoration(
-              //       color: Colors.white,
-              //       borderRadius: BorderRadius.circular(20),
-              //     ),
-              //     child: IconButton(
-              //       icon: Icon(Icons.clear_all),
-              //       onPressed: () {
-              //         this.setState(() {
-              //           points.clear();
-              //         });
-              //       },
-              //     ),
-              //   ),
-              // )
+              Padding(
+                padding: EdgeInsets.symmetric(
+                    vertical: size.width * .05, horizontal: size.width * .11),
+                child: Container(
+                  height: size.width * .1,
+                  width: size.width,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(20),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.white.withOpacity(0.6),
+                        offset: const Offset(0, 2),
+                        blurRadius: 6,
+                      ),
+                    ],
+                  ),
+                  child: IconButton(
+                    icon: Icon(Icons.clear_all),
+                    onPressed: () {
+                      this.setState(() {
+                        points.clear();
+                      });
+                    },
+                  ),
+                ),
+              )
             ],
           ),
         )
