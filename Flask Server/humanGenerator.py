@@ -38,7 +38,7 @@ class Predict(Resource):
 
         img = Image.open(io.BytesIO(image))
 
-        prepared_image = prepare_image(img, traget=(256, 256))
+        prepared_image = prepare_image(img,(256, 256))
 
         preds = model.predict(prepared_image)
 
@@ -56,7 +56,7 @@ class Predict(Resource):
         imageNew.save(savePath + 'New_'+ outputFile)
 
         with open(savePath + 'New_' + outputFile, 'rb') as image_file:
-            encoded_string = base64.b64decode(image_file.read())
+            encoded_string = base64.b64encode(image_file.read())
 
         outputData = {
             'Image' : str(encoded_string)
