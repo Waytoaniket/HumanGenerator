@@ -8,4 +8,4 @@
 2. Define Epoch (150 Reccomended)
 3. Run all cells and you are good to go 
 
-## [PreTrain Model](https://github.com/Waytoaniket/HumanGenerator/blob/main/Flask%20Server/HumanGeneratorModel.h5)
+## [PreTrained Model](https://github.com/Waytoaniket/HumanGenerator/blob/main/Flask%20Server/HumanGeneratorModel.h5)
