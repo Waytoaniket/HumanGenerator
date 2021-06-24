@@ -27,7 +27,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 #### Hosting Flask Server
-- Execute Following Command in terminal
+- Execute Following Command in your terminal
 ```
 set FLASK_APP=humanGenerator.py
 ```
