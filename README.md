@@ -9,9 +9,9 @@
 
 ## Screenshots
 
-![info](https://raw.githubusercontent.com/fluttercommunity/page_turn/screenshots/screenshots/demo.gif)
-![info](https://raw.githubusercontent.com/fluttercommunity/page_turn/screenshots/screenshots/turn.png)
-![info](https://raw.githubusercontent.com/fluttercommunity/page_turn/screenshots/screenshots/cutoff.png)
+![info](https://raw.githubusercontent.com/Waytoaniket/HumanGenerator/screenshots/video.mp4)
+![info](https://raw.githubusercontent.com/Waytoaniket/HumanGenerator/screenshots/Screenshot1.jpg)
+![info](https://raw.githubusercontent.com/Waytoaniket/HumanGenerator/screenshots/Screenshot2.jpg)
 
 
 <!-- TABLE OF CONTENTS -->
