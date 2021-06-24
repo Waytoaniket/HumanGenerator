@@ -11,9 +11,9 @@
 
 <p align="center">
  
- <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot.gif" width="300" height="350" alt="ScreenShots">
- <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot1.jpg" width="300" height="350" alt="ScreenShots">
- <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot2.jpg" width="300" height="350" alt="ScreenShots">
+ <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot.gif" width="300" height="500" alt="ScreenShots">
+ <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot1.jpg" width="300" height="500" alt="ScreenShots">
+ <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot2.jpg" width="300" height="500" alt="ScreenShots">
   
 </p>
 
