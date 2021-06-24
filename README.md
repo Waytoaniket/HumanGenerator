@@ -10,7 +10,9 @@
 ## Screenshots
 
 <p align="center">
-   ![info](https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/video.mp4)
+  <iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390"
+  src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/video.mp4"
+  frameborder="0"/>
   <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot1.jpg" width="350" alt="ScreenShots">
   <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot2.jpg" width="350" alt="ScreenShots">
 </p>
