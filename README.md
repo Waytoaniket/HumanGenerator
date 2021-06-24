@@ -10,7 +10,7 @@
 ## Screenshots
 
 ![info](https://raw.githubusercontent.com/Waytoaniket/HumanGenerator/screenshots/video.mp4)
-![info](/screenshots/Screenshot2.jpg)
+![info](./screenshots/Screenshot2.jpg)
 ![info](https://raw.githubusercontent.com/Waytoaniket/HumanGenerator/screenshots/Screenshot2.jpg)
 
 
