@@ -10,7 +10,7 @@
 ## Screenshots
 
 <p align="center">
-   <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/video.mp4" width="350" alt="ScreenShots">
+   ![info](https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/video.mp4)
   <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot1.jpg" width="350" alt="ScreenShots">
   <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot2.jpg" width="350" alt="ScreenShots">
 </p>
