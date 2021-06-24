@@ -50,12 +50,14 @@ class Predict(Resource):
         output = (output + 1) /2
 
         save_img(savePath+outputFile, img_to_array(output))
+        save_img(savePath+'1'+outputFile, img_to_array(img))
+
 
         imageNew = Image.open(savePath+outputFile)
         imageNew = imageNew.resize((50,50))
         imageNew.save(savePath + 'New_'+ outputFile)
 
-        with open(savePath + 'New_' + outputFile, 'rb') as image_file:
+        with open(savePath + outputFile, 'rb') as image_file:
             encoded_string = base64.b64encode(image_file.read())
 
         outputData = {

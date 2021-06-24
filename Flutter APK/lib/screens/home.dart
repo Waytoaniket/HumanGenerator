@@ -46,14 +46,13 @@ class _HomeState extends State<Home> {
       }
     }
     final picture = recorder.endRecording();
-    final img = await picture.toImage((width*.8).toInt(), (height*.5).toInt());
+    final img =
+        await picture.toImage((width).toInt(), (height * .5).toInt());
 
     final pngBytes = await img.toByteData(format: ImageByteFormat.png);
     final listBytes = Uint8List.view(pngBytes!.buffer);
 
-
     String base64 = base64Encode(listBytes);
-    
 
     ApiProvider().getImage({'Image': base64}).then((response) {
       print(response['Image']);
@@ -67,9 +66,19 @@ class _HomeState extends State<Home> {
     Uint8List convertedBytes = await base64Decode(bytes);
     setState(() {
       imageOutPut = Container(
-        width: width*.9,
+        height: width * .8,
+        width: width * .8,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(
+              offset: Offset(10, 10),
+              blurRadius: 6,
+              color: Colors.black.withOpacity(0.4),
+            ),
+          ],
+        ),
         child: Image.memory(
-          
           convertedBytes,
           fit: BoxFit.cover,
         ),
@@ -187,7 +196,6 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
-              
               Padding(
                 padding: EdgeInsets.all(8.0),
                 child: imageOutPut,

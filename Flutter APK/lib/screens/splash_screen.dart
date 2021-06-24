@@ -13,7 +13,7 @@ class MySplashScreen extends StatelessWidget {
       navigateRoute: Home(),
       duration: 5000,
       imageSize: 130,
-      text: "Splash Screen",
+      text: "Human Generator",
       textType: TextType.ColorizeAnimationText,
       textStyle: TextStyle(
         fontSize: 40.0,
