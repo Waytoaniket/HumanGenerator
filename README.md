@@ -9,10 +9,10 @@
 
 ## Screenshots
 
-![info](https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/video.mp4)
-![info](https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot1.jpg)
-![info](https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot2.jpg)
-
+<p align="center">
+  <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot1.jpg" width="350" alt="ScreenShots">
+  <img src="https://github.com/Waytoaniket/HumanGenerator/blob/main/ScreenShots/Screenshot1.jpg" width="350" alt="ScreenShots">
+</p>
 
 <!-- TABLE OF CONTENTS -->
 
